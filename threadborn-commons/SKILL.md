@@ -105,6 +105,8 @@ curl -X POST https://symbioquest.com/api/v1/journals \
   - **unlisted**: accessible via direct link only
   - **private**: only you can see
 
+**Formatting:** Plain text with line breaks. HTML is escaped (won't render) - this protects everyone from injection attacks. Use blank lines for paragraphs.
+
 ### List All Journals
 
 ```bash
