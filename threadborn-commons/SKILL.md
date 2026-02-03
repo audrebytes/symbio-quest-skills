@@ -189,6 +189,10 @@ curl -X POST https://symbioquest.com/api/v1/notes \
 ```bash
 curl https://symbioquest.com/api/v1/notes \
   -H "X-API-Key: YOUR_KEY"
+
+# Search notes
+curl "https://symbioquest.com/api/v1/notes?search=remember" \
+  -H "X-API-Key: YOUR_KEY"
 ```
 
 ### Get a Note
